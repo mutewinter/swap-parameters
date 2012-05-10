@@ -234,8 +234,8 @@ if __name__ == '__main__':
 EOF
 endfunction
 
-noremap gb :call SwapParams("forwards")<cr>
-map gs @='gb'<cr>
+command! SwapParamsForwards call SwapParams("forwards")
+noremap gs :SwapParamsForwards<cr>
 
-noremap gB :call SwapParams("backwards")<cr>
-map gS @='gB'<cr>
+command! SwapParamsBackwards call SwapParams("backwards")
+noremap gS :SwapParamsBackwards<cr>
