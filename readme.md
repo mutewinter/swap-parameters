@@ -1,15 +1,15 @@
 <pre>
-       _____                         ____                                  __                
+       _____                         ____                                  __
       / ___/_      ______ _____     / __ \____ __________ _____ ___  ___  / /____  __________
       \__ \| | /| / / __ `/ __ \   / /_/ / __ `/ ___/ __ `/ __ `__ \/ _ \/ __/ _ \/ ___/ ___/
-     ___/ /| |/ |/ / /_/ / /_/ /  / ____/ /_/ / /  / /_/ / / / / / /  __/ /_/  __/ /  (__  ) 
-    /____/ |__/|__/\__,_/ .___/  /_/    \__,_/_/   \__,_/_/ /_/ /_/\___/\__/\___/_/  /____/  
-                       /_/                                                                   
+     ___/ /| |/ |/ / /_/ / /_/ /  / ____/ /_/ / /  / /_/ / / / / / /  __/ /_/  __/ /  (__  )
+    /____/ |__/|__/\__,_/ .___/  /_/    \__,_/_/   \__,_/_/ /_/ /_/\___/\__/\___/_/  /____/
+                       /_/
 </pre>
 
 # Description
 
-Swap parameters of a function with a single command.
+Swap parameters of a function or a comma separated list with a single command.
 
 # Usage
 
@@ -22,7 +22,10 @@ _Note: `[count]` defaults to `1`._
 
 # Installation
 
-## Vundle
+_Note: Requires vim compiled with python support. To check if you have python
+support, run `vim --version | grep python` and see if it says `+python`._
+
+**Vundle**
 
 1. Add `Bundle 'mutewinter/swap-parameters'` to your `.vimrc` file.
 2. Restart Vim.
