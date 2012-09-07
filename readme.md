@@ -112,7 +112,7 @@ par|m|1 means that the cursor is on the character m.
       <th>Version</th><td>1.2.1</td>
     </tr>
     <tr>
-      <th>Last Change</th><td>2012-05-10</td>
+      <th>Last Change</th><td>2012-09-06</td>
     </tr>
     <tr>
       <th>URL</th><td>https://github.com/mutewinter/swap-parameters</td>

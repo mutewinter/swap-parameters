@@ -5,7 +5,7 @@
 " Author:        Kamil Dworakowski <kamil-at-dworakowski.name>
 " Updated By:    Jeremy Mack <@mutewinter>
 " Version:       1.2.1
-" Last Change:   2012-05-10
+" Last Change:   2012-09-06
 " URL:           https://github.com/mutewinter/swap-parameters
 " Requires:      Python and Vim compiled with +python option
 " Licence:       MIT Licence
