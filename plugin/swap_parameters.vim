@@ -4,7 +4,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Author:        Kamil Dworakowski <kamil-at-dworakowski.name>
 " Updated By:    Jeremy Mack <@mutewinter>
-" Version:       1.2.0
+" Version:       1.2.1
 " Last Change:   2012-05-10
 " URL:           https://github.com/mutewinter/swap-parameters
 " Requires:      Python and Vim compiled with +python option
@@ -14,9 +14,18 @@
 "                with the next one, and press gs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+function! s:ErrMsg(msg)
+  echohl ErrorMsg
+  echo a:msg
+  echohl None
+endfunction
+
 if !has('python')
-    s:ErrMsg( "Error: Required Vim compiled with +python" )
-    finish
+  if !exists("g:SwapParametersSuppressPythonWarning") ||
+      \ g:SwapParametersSuppressPythonWarning == "0"
+    call s:ErrMsg( "Error: swap-parameters requires Vim compiled with +python" )
+  endif
+  finish
 endif
 
 function! SwapParams(directionName)

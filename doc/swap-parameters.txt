@@ -10,6 +10,7 @@ CONTENTS                                                 *swap_params_contents*
 
     1. Description..................................|swap_params_description|
     2. Usage..............................................|swap_params_usage|
+    3. Options..........................................|swap_params_options|
     3. Examples........................................|swap_params_examples|
 
 ===============================================================================
@@ -26,6 +27,13 @@ USAGE                                                       *swap_params_usage*
     * [count]gS Swap the current parameter with the previous parameter.
 
   Note: [count] defaults to 1.
+
+===============================================================================
+OPTIONS                                                   *swap_params_options*
+
+g:SwapParametersSuppressPythonWarning
+    When set to 1, this suppresses the error that your vim was not compiled
+    with +python.
 
 ===============================================================================
 EXAMPLES                                                 *swap_params_examples*

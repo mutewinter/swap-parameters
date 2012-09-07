@@ -109,7 +109,7 @@ par|m|1 means that the cursor is on the character m.
       <th>Updated By</th><td>Jeremy Mack <a href="http://twitter.com/mutewinter">@mutewinter</a></td>
     </tr>
     <tr>
-      <th>Version</th><td>1.2.0</td>
+      <th>Version</th><td>1.2.1</td>
     </tr>
     <tr>
       <th>Last Change</th><td>2012-05-10</td>
