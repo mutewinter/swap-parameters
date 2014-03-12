@@ -32,6 +32,15 @@ support, run `vim --version | grep python` and see if it says `+python`._
 3. Now run `:BundleInstall`.
 4. Enjoy.
 
+# Customization
+
+You can change mappings by using the `g:SwapParametersMapForwards` and
+`g:SwapParametersMapBackwards` variables:
+```vim
+g:SwapParametersMapForwards = '<leader>s'
+g:SwapParametersMapBackwards = '<leader>S'
+```
+
 # Examples
 
 Below are examples of what happens after pressing gs (equivalent to 1gs).
