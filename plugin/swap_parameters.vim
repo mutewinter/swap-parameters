@@ -176,7 +176,9 @@ EOF
 endfunction
 
 command! SwapParamsForwards call SwapParams("forwards")
-noremap gs :SwapParamsForwards<cr>
+if !exists('g:SwapParametersMapForwards') | let g:SwapParametersMapForwards = 'gs' | en
+exe 'nn <silent>' g:SwapParametersMapForwards ':SwapParamsForwards<cr>'
 
 command! SwapParamsBackwards call SwapParams("backwards")
-noremap gS :SwapParamsBackwards<cr>
+if !exists('g:SwapParametersMapBackwards') | let g:SwapParametersMapBackwards = 'gS' | en
+exe 'nn <silent>' g:SwapParametersMapBackwards ':SwapParamsBackwards<cr>'

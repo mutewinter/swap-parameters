@@ -35,6 +35,12 @@ g:SwapParametersSuppressPythonWarning
     When set to 1, this suppresses the error that your vim was not compiled
     with +python.
 
+g:SwapParametersMapForwards
+    Set to preferred mapping for gs
+
+g:SwapParameterMapBackwards
+    Set to preferred mapping for gS
+
 ===============================================================================
 EXAMPLES                                                 *swap_params_examples*
 
